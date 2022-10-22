@@ -1,3 +1,8 @@
+// Programa que fica pedindo para o usuario informar numeros
+// ate que um numero negativo seja informado
+// no final ele calcula a quantidade de pessoas jovens
+// adultas e idosas baseada nas idades
+
 Numero is the brother
 Numero pergunta: Numero:
 
@@ -20,19 +25,64 @@ adulto_value vale 60
 adulto is the brother
 adulto vale nada
 
+velho_check is the brother
+velho_value is the brother
+velho_value vale 59
+velho is the brother
+velho vale nada
+
+um is the brother
+um vale tudo
+
 
 eu nao vou parar de mesclar
 
-// comentario
-jovem_check what is the sister Numero ou jovem_value?
-adulto_check what is the sister Numero ou adulto_value?
-adulto_check what is the sister jovem_check ou adulto_check?
 
-voce quer ser tudo Numero
+jovem_check who is the sister Numero ou jovem_value?
 
-e nao é de nada
+adulto_check who is the sister Numero ou adulto_value?
+
+// caso seja menor que 60 e não atenda aos requerimentos de ser jovem
+adulto_check who is the sister jovem_check ou adulto_check?
+
+velho_check what is the brother Numero ou velho_value?
 
 
+voce quer ser tudo jovem_check
+
+jovem e um é igual ao que, jovem? 
+
+e não é de nada
+
+
+voce quer ser tudo adulto_check
+
+adulto e um é igual ao que, adulto?
+
+e não é de nada
+
+
+voce quer ser tudo velho_check
+
+velho e um é igual ao que, velho?
+
+e não é de nada
+
+
+Numero pergunta: Numero:
+CondParada what is the brother Numero ou Zero?
 
 enquanto CondParada assim continuar
 
+Birina is the sister
+Birina disse: Quantidade de jovens: 
+Birina respondeu
+jovem respondeu
+
+Birina disse: \nQuantidade de adultos:
+Birina respondeu
+adulto respondeu
+
+Birina disse: \nQuantidade de idosos:
+Birina respondeu
+velho respondeu
